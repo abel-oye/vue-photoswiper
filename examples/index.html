@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>vue photoswipe</title>
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1">
+    <style type="text/css" media="screen">
+    body {
+        margin: 0;
+    }
+
+    
+    </style>
+    <link rel="stylesheet" href="../dist/vue-photoswiper.css">
+    <link rel="stylesheet" href="../node_modules/photoswipe/dist/photoswipe.css">
+    <link rel="stylesheet" href="../node_modules/photoswipe/dist/default-skin/default-skin.css">
+</head>
+<body>
+    
+    <div id="app">
+        <h3>First group</h3>
+        <div>
+            <img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" alt="" v-preview="1" style="width:200px">
+            <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" alt="" v-preview="1" style="width:200px">
+        </div>
+        <h3>Second group</h3>
+        <img src="https://farm3.staticflickr.com/2567/5697107145_3c27ff3cd1_m.jpg" alt="" v-preview="2" style="width:200px">
+        <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" alt="" v-preview="2" style="width:200px">
+    </div>
+    <script src="//unpkg.com/vue/dist/vue.js"></script>
+    <script src="../node_modules/photoswipe/dist/photoswipe.min.js"></script>
+    <script src="../node_modules/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+    <script src="../dist/vue-photoswiper.js"></script>
+    <script>
+    var Main = {
+        data() {
+            var that = this;
+            return {
+                
+            };
+        },
+        methods: {
+            moveTo: function(index) {
+                this.$refs.fullpage.$fullpage.moveTo(index, true);
+            },
+            showPage: function() {
+                this.pageNum++;
+                this.$refs.fullpage.$fullpage.$update();
+            }
+        }
+    }
+    var Ctor = Vue.extend(Main)
+    Vue.use(vuePhotoPreview)
+    var app = new Ctor().$mount('#app')
+    </script>
+</body>
+
+</html>

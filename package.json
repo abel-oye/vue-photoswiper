@@ -1,0 +1,33 @@
+{
+  "name": "vue-photoswiper",
+  "version": "1.7.0",
+  "description": "vue 2.x photoswiper rollup  ",
+  "main": "./dist/vue-photoswipe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "dev": "rollup -c rollup.config.js  -w"
+  },
+  "keywords": [
+    "vue",
+    "fullpage",
+    "rollup"
+  ],
+  "author": "abel",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "photoswipe": "^4.1.2",
+    "rollup": "^0.43.0",
+    "rollup-plugin-vue": "^3.0.0",
+    "rollup-watch": "^4.0.0",
+    "vue": "^2.5.16",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "rollup-plugin-babel": "^2.7.1"
+  }
+}
