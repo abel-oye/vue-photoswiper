@@ -10,7 +10,7 @@ npm install vue-photoswiper -S
 ```
 或者
 ```
-yarm add vue-photoswiper -S
+yarm add vue-photoswiper
 ```
 
 
@@ -30,13 +30,13 @@ new Vue({
 ```
 
 ```html
-	<img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" alt="" v-preview="1" style="width:200px">
+<img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" alt="" v-preview="1" style="width:200px">
 ```
 
 图片组
 ```html
-	<img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" alt="" v-preview="1" style="width:200px">
-	<img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" alt="" v-preview="1" style="width:200px">
-	<img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" alt="" v-preview="2" style="width:200px">
-	<img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" alt="" v-preview="2" style="width:200px">
+<img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" alt="" v-preview="1" style="width:200px">
+<img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" alt="" v-preview="1" style="width:200px">
+<img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" alt="" v-preview="2" style="width:200px">
+<img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" alt="" v-preview="2" style="width:200px">
 ```
