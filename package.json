@@ -1,6 +1,6 @@
 {
   "name": "vue-photoswiper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue 2.x photoswiper rollup  ",
   "main": "./dist/vue-photoswipe.js",
   "scripts": {
