@@ -1,8 +1,8 @@
 # vue-photoswiper
 Vue directive for [PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe).Javascript image gallery for mobile and desktop.
 
-[mobile](https://github.com/river-lee/vue-photoswiper/blob/master/screenshot/mobile.png)
-[desktop](https://github.com/river-lee/vue-photoswiper/blob/master/screenshot/desktop.png)
+![mobile](https://github.com/river-lee/vue-photoswiper/blob/master/screenshot/mobile.png)
+![desktop](https://github.com/river-lee/vue-photoswiper/blob/master/screenshot/desktop.png)
 
 ## Installation
 ```js

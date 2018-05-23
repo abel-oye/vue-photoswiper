@@ -1,8 +1,8 @@
 # vue-photoswipe
 vue照片预览指令
 
-[mobile]()
-[desktop]()
+![mobile](https://github.com/river-lee/vue-photoswiper/blob/master/screenshot/mobile.png)
+![desktop](https://github.com/river-lee/vue-photoswiper/blob/master/screenshot/desktop.png)
 
 ## 安装
 ```js
