@@ -19,7 +19,7 @@ yarm add vue-photoswiper
 Register
 ```js
 import Vue from 'vue'
-import vuePhotoswiper from 'vuePhotoswiper'
+import vuePhotoswiper from 'vue-photoswiper'
 
 Vue.use(vuePhotoswiper)
 
