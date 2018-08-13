@@ -2,7 +2,6 @@ import previewComponent from './preview.vue'
 import PhotoSwipe from 'photoswipe'
 import PhotoSwipeUI_Default from 'photoswipe/dist/photoswipe-ui-default'
 
-console.log(PhotoSwipe)
 let $preview
 var vuePhotoPreview = {
 	install(Vue, opts) {
@@ -17,7 +16,6 @@ var vuePhotoPreview = {
 
 		Vue.directive('preview', {
 			bind: function(el, binding, vnode) {
-				console.log(binding)
 				initPhotoSwipeFromDOM(el,{},binding.value)
 			}
 		})

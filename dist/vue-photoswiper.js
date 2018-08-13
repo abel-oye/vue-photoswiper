@@ -15,7 +15,6 @@ var previewComponent = { render: function render() {
 
 };
 
-console.log(PhotoSwipe);
 var $preview = void 0;
 var vuePhotoPreview = {
 	install: function install(Vue, opts) {
@@ -30,7 +29,6 @@ var vuePhotoPreview = {
 
 		Vue.directive('preview', {
 			bind: function bind(el, binding, vnode) {
-				console.log(binding);
 				initPhotoSwipeFromDOM(el, {}, binding.value);
 			}
 		});
